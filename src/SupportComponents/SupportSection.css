@@ -1,0 +1,427 @@
+.support-resource{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-top: 56px;
+    margin-bottom: 128px;
+}
+.h2-resource{
+    color: var(--h2-resource);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+.p-resource{
+    color: #64748B;
+    font-weight: 400;
+    font-size: 18px;
+}
+.head-control{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 8px;
+    background: #CFE9DE;
+    width: 1368px;
+    height: 40px;
+    border-radius: 12px;
+}
+.first-control{
+    background: white;
+    border: 2px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 25px;
+    width: 1368px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 16px;
+}
+.second-control{
+    background: white;
+    border: 2px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 25px;
+    width: 1368px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 16px;
+}
+.third-control{
+    background: white;
+    border: 2px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 25px;
+    width: 1368px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 16px;
+}
+.h4-resource{
+    color: var(--h4-resource);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.help{
+    width: 1368px;
+    height: 380px;
+    background: linear-gradient(135deg, #AEC5BE, #12765B);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 48px;
+}
+.h3-help{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+.p-help{
+    color: #DBEAFE;
+    font-weight: 400;
+    font-size: 18px;
+}
+.both-help{
+    display: flex;
+    gap: 24px;
+}
+.meeting{
+    background: #80b49db7;
+    width: 624px;
+    height: 180px;
+    padding: 24px;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+.meeting-p{
+    width: 539px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+.chat{
+    background: #80b49db7;
+    width: 624px;
+    height: 180px;
+    padding: 24px;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+.chat-p{
+    width: 539px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+.external{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.both-external{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.h2-external{
+    font-weight: 700;
+    color: var(--h2-external);
+    font-size: 30px;
+}
+.educational{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 25px 0 25px 25px;
+    width: 672px;
+    height: 268px;
+    background: white;
+    border: 2px solid #DBEAFE;
+    border-radius: 16px;
+}
+.resources{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 25px 0 25px 25px;
+    width: 672px;
+    height: 268px;
+    background: white;
+    border: 2px solid #DBEAFE;
+    border-radius: 16px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.h5-education{
+    font-weight: 600;
+    font-size: 24px;
+    color: #0A192F;
+}
+.h5-resources{
+    font-weight: 600;
+    font-size: 24px;
+    color: #0A192F;
+}
+.two-p{
+    color: #64748B;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media(max-width:768px){
+    .p-resource{
+        width: 714px;
+    }
+    .head-control{
+        width: 736px;
+    }
+    .first-control{
+        width: 736px;
+    }
+    .second-control{
+        width: 736px;
+    }
+    .third-control{
+        width: 736px;
+    }
+    .help{
+        width: 736px;
+        height: 428px;
+    }
+    .meeting{
+        width: 308px;
+        height: 200px;
+    }
+    .meeting-p{
+        width: 255px;
+    }
+    .chat{
+        width: 308px;
+        height: 200px;
+    }
+    .chat-p{
+        width: 255px;
+    }
+    .educational{
+        width: 356px;
+        height: 292px;
+    }
+    .resources{
+        width: 356px;
+        height: 292px;
+    }
+}
+@media(max-width:400px){
+    .p-resource{
+        width: 361px !important;
+    }
+    .head-control{
+        width: 368px;
+    }
+    .first-control{
+        width: 368px;
+    }
+    .second-control{
+        width: 368px;
+    }
+    .third-control{
+        width: 368px;
+    }
+    .help{
+        width: 368px;
+        height: 648px;
+        padding: 32px;
+    }
+    .both-help{
+        flex-direction: column;
+    }
+    .meeting{
+        width: 304px;
+        height: 200px;
+    }
+    .chat{
+        width: 304px;
+        height: 200px;
+    }
+    .h2-external{
+        width: 283px;
+    }
+    .both-external{
+        flex-direction: column;
+    }
+    .educational{
+        width: 368px;
+        height: 268px;
+    }
+    .resources{
+        width: 368px;
+        height: 268px;
+    }
+}
+
+
+
+
+
+/* .all-support{
+    margin-top: 56px;
+    margin-bottom: 83px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.h2-with-p{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.p-support{
+    color: #64748B;
+    font-weight: 400;
+    font-size: 18px;
+}
+.questions{
+    width: 1216px;
+    background: white;
+    border: 2px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 25px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.first-h3-support{
+    color: #153E36;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.information{
+    background: white;
+    width: 1216px;
+    height: 490px;
+    border: 2px solid #DBEAFE;
+    border-radius: 16px;
+    padding: 25px 24px 25px 24px;
+}
+.trio-info{
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    margin-top: 24px;
+}
+.adres{
+    width: 373px;
+    height: 188px;
+    background: #CFE9DE;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 24px 0 48px 0;
+}
+.phone{
+    width: 373px;
+    height: 188px;
+    background: #CFE9DE;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 24px 0 48px 0;
+}
+.email{
+    width: 373px;
+    height: 188px;
+    background: #CFE9DE;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 24px 0 48px 0;
+}
+.work-hours{
+    height: 172px;
+    background: #CFE9DE;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0 26px 24px;
+    margin-top: 24px;
+}
+.both{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.administration{
+    display: flex;
+    flex-direction: column;
+}
+.school{
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width:768px){
+    .p-support{
+        width: 648px;
+    }
+    .questions{
+        width: 720px;
+        height: 594px;
+    }
+    .information{
+        width: 720px;
+        height: 498px;
+    }
+}
+@media(max-width:400px){
+    .p-support{
+        width: 337px !important;
+    }
+    .trio-info{
+        flex-wrap: wrap;
+    }
+    .questions{
+        width: 318px;
+        height: auto;
+    }
+    .information{
+        width: 318px;
+        height: auto;
+    }
+    .adres{
+        width: 318px;
+        height: 164px;
+    }
+    .phone{
+        width: 318px;
+        height: 188px;
+    }
+    .email{
+        width: 318px;
+        height: 188px;
+    }
+    .work-hours{
+        height: 316px;
+    }
+    .both{
+        flex-direction: column;
+    }
+} */

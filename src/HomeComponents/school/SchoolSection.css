@@ -1,0 +1,174 @@
+.both-school{
+    display: flex;
+    margin-top: 96px;
+    justify-content: center;
+    gap: 48px;
+}
+.first-school{
+    width: 584px;
+    height: 712px;
+    display: flex;
+    border-radius: 24px;
+    border: 1px solid #D1D5DB;
+    flex-direction: column;
+}
+.all-first-school{
+    background: white;
+    padding: 40px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border: 1px solid #F3F4F6;
+}
+.p-school{
+    width: 496px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 18px;
+    color: #4B5563;
+}
+.first-button-school{
+    margin-top: 32px;
+    background-color: var(--first-button-school-bg) !important;
+    font-variant: filled;
+    border-radius: 40px !important;
+}
+.four-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 26px;
+}
+.numbers-school{
+    width: 244px;
+    height: 92px;
+    background: #CFE9DE;
+    border-radius: 16px;
+}
+.p-numbers{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -18px;
+    color: #0A192F;
+}
+.second-school{
+    height: 712px;
+    width: 584px;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    background: white;
+}
+.one-text-school{
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: -310px;
+    color: #0A192F;
+}
+.two-text-school{
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: -430px;
+    color: #0A192F;
+}
+.three-text-school{
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: -360px;
+    color: #0A192F;
+}
+.three-all-school{
+    display: flex;
+    flex-direction: column;
+    margin-left: -375px;
+    gap: 8px !important;
+}
+.three-school{
+    display: flex;
+    flex-direction: column;
+    margin-left: -385px;
+    gap: 8px !important;
+}
+.button-school{
+    margin-left: 25px;
+    width: 536px !important;
+}
+@media(max-width:768px){
+    .both-school{
+        flex-wrap: wrap;
+    }
+    .first-school{
+        width: 720px;
+        height: 688px;
+    }
+    .p-school{
+        width: 633px;
+    }
+    .numbers-school{
+        width: 312px;
+    }
+    .second-school{
+        width: 720px;
+        height: 655px;
+    }
+    .one-text-school{
+        margin-left: -440px;
+    }
+    .two-text-school{
+        margin-left: -570px;
+    }
+    .three-text-school{
+        margin-left: -500px;
+    }
+    .three-all-school{
+        margin-left: -510px;
+    }
+    .three-school{
+        margin-left: -530px;
+    }
+    .button-school{
+        width: 672px !important;
+    }
+}
+@media(max-width:400px){
+    .first-school{
+        width: 368px;
+        height: 768px;
+    }
+    .all-first-school{
+        padding: 32px;
+    }
+    .p-school{
+        width: 304px;
+    }
+    .numbers-school{
+        width: 144px;
+    }
+    .p-numbers{
+        width: 71px !important;
+    }
+    .second-school{
+        width: 368px;
+        height: 655px;
+    }
+    .one-text-school{
+        margin-left: -90px;
+    }
+    .three-all-school{
+        margin-left: -40px;
+    }
+    .two-text-school{
+        margin-left: -90px;
+    }
+    .three-text-school{
+        margin-left: -90px;
+    }
+    .three-school{
+        margin-left: -40px;
+    }
+    .button-school{
+        width: 320px !important;
+        height: 40px !important;
+    }
+    .four-numbers{
+        gap: 12px;
+    }
+}

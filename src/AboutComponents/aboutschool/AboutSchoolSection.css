@@ -1,0 +1,63 @@
+.both-about-school{
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+    margin-top: 72px;
+}
+.h2-about-school{
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 90px;
+    color: var(--h2-about-color);
+}
+.h6-about-school{
+    width: 566px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 24px;
+    color: var(--h6-about-color);
+}
+.p-about-school{
+    width: 551px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+    color: var(  --h6-about-color);
+}
+.img-school{
+    width: 584px !important;
+    height: 438px;
+}
+@media(max-width:768px){
+    .both-about-school{
+        flex-direction: column;
+    }
+    .h2-about-school{
+        margin-top: 0px;
+    }
+    .h6-about-school{
+        width: 690px;
+    }
+    .p-about-school{
+        width: 707px;
+    }
+    .img-school{
+        width: 720px !important;
+        height: 540px;
+    }
+}
+@media(max-width:400px){
+    .h2-about-school{
+        width: 311px;
+    }
+    .h6-about-school{
+        width: 353px;
+    }
+    .p-about-school{
+        width: 368px;
+    }
+    .img-school{
+        width: 368px !important;
+        height: 276px;
+    }
+}

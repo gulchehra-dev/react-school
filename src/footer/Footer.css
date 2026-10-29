@@ -1,0 +1,137 @@
+.first-footer{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 462px;
+    border-top: 1px solid #E5E7EB;
+    align-items: center;
+}
+.second-footer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 48px;
+    padding: 0px 24px 0px 24px;
+}
+.third-footer{
+    margin-top: 54px;
+}
+.logo-footer{
+    background-color: var(--logo-footer-bg);
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-footer span{
+    color: var(--footer-logo-text);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.footer-text-logo{
+    color: var(--footer-text-logo);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.p-text{
+    width: 250px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4B5563;
+    margin-top: 32px;
+}
+.forth-footer{
+    margin-top: 48px;
+    margin-left: 66px;
+}
+.five-footer{
+    margin-top: 48px;
+    margin-left: 160px;
+}
+.p-contact{
+    font-weight: 400;
+    color: #4B5563;
+    font-size: 16px;
+    width: 196px;
+}
+.six-floor{
+    margin-top: 48px;
+    margin-left: 87px;
+}
+.p-floor{
+    width: 229px;
+    font-weight: 400;
+    color: #4B5563;
+    font-size: 16px;
+}
+.input-footer{
+    width: 268px;
+    height: 40px;
+    padding: 6px;
+    color: #4B5563;
+    border-radius: 40px;
+    border: 1px solid #D1D5DB;
+    background: white;
+}
+.button-subscribe{
+    background: var(--button-subscribe-bg) !important;
+    border-radius: 40px !important;
+    height: 40px;
+    margin-top: 8px;
+}
+.end-p-footer{
+    font-weight: 400;
+    font-size: 16px;
+    color: #4B5563;
+}
+@media(max-width:768px){
+    .second-footer{
+        gap: 30px;
+    }
+    .p-text{
+        width: 130px;
+    }
+    .forth-footer{
+        margin-left: 0px;
+    }
+    .five-footer{
+        margin-left: 0px;
+    }
+    .p-contact{
+        width: 105px;
+    }
+    .six-floor{
+        margin-left: 0px;
+    }
+    .p-floor{
+        width: 125px;
+    }
+    .input-footer{
+        width: 150px;
+    }
+}
+@media(max-width:400px){
+    .first-footer{
+        height: 0;
+    }
+    .second-footer{
+        flex-direction: column;
+        gap: 0;
+    }
+    .p-text{
+        width: 295px !important;
+    }
+    .p-floor{
+        width: 354px !important;
+    }
+    .input-footer{
+        width: 353px;
+    }
+    .end-p-footer{
+        font-size: 14px;
+        width: 298px !important;
+    }
+}

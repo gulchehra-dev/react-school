@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+:root[data-mantine-color-scheme='light'] {
+  --home-bg: #f0f8f5; 
+  --header-bg: #f0f8f5;
+  --header-text: #0f172a;
+  --logo-bg: #153E36;
+  --logo-text: #ffffff;
+  --nav-link: #4a5167;
+  --nav-link-active: #153E36;
+  --nav-link-active-underline: #153E36;
+  --button-bg: #153E36;
+  --button-text: #ffffff;
+  --lang-text: #0A192F;
+  --menu-bg: #ffffff;
+  --welcome-bg: #CFE9DE ;
+  --first-button-bg: #153E36;
+  --first-text-color:#0A192F;
+  --h2-teacher-color:#0A192F;
+  --p-teacher-color:#6b7280;
+  --first-button-school-bg:#153E36;
+  --h2-galery-color:#0A192F;
+
+
+  --photos-page-bg:#f0f8f5;
+  --h2-photos-page-color:#0A192F;
+  --p-photos-page-color:#4B5563;
+
+  --logo-footer-bg:#153E36;
+  --footer-logo-text:white;
+  --footer-text-logo:#0f172a;
+  --button-subscribe-bg:#153E36;
+
+  --about-bg:#f0f8f5; 
+  --h2-about-color:#0A192F;
+  --h6-about-color:#4B5563;
+  --p-about-color:#4B5563;
+  --h2-facility:#0A192F;
+  --h2-leadership:#0A192F;
+  
+  --study-bg:#f0f8f5;
+  --h2-study:#153E36;
+  --p-study:#64748B;
+  --h3-study:#153E36;
+
+  --schedule-bg:#f0f8f5;
+  --h2-schedule:#153E36;
+  --p-schedule:#64748B;
+  --download-button:#153E36;
+
+  --rules-bg:#f0f8f5;
+  --h2-rules:#153E36;
+  --p-rules:#64748B;
+  --first-h3-rules:#153E36;
+  --second-h3-rules:#153E36;
+  --third-h3-rules:#0A192F;
+
+  --news-bg:#f0f8f5;
+  --h2-carusel-news:#153E36;
+  --p-carusel-news:#64748B;
+
+  --support-bg: #f0f8f5;
+  --h2-resource: #153E36;
+  --h4-resource:#153E36;
+  --h2-external:#0A192F;
+}
+
+:root[data-mantine-color-scheme='dark'] {
+  --home-bg: #0A192F;
+  --header-bg: #0A192F;
+  --header-text: #ffffff;
+  --logo-bg: #CFE9DE;
+  --logo-text: #0A192F;
+  --nav-link: #a0aec0;
+  --nav-link-active: #CFE9DE;
+  --nav-link-active-underline: #CFE9DE;
+  --button-bg: #CFE9DE;
+  --button-text: #0A192F;
+  --lang-text: #ffffff;
+  --menu-bg: #1a1a1a;
+  --welcome-bg: #CFE9DE ;
+  --first-button-bg: #44665f;
+  --first-text-color:white;
+  --h2-teacher-color:white;
+  --p-teacher-color:#a0aec0;
+  --first-button-school-bg:#44665f;
+  --h2-galery-color:white;
+
+
+  --photos-page-bg:#0A192F;
+  --h2-photos-page-color: white;
+  --p-photos-page-color:#a0aec0;
+
+  --logo-footer-bg:#CFE9DE;
+  --footer-logo-text:#0A192F;
+  --footer-text-logo:#0A192F;
+  --button-subscribe-bg:#44665f;
+
+  --about-bg:#0A192F;
+  --h2-about-color:white;
+  --h6-about-color:#a0aec0;
+  --p-about-color:#a0aec0;  
+  --h2-facility:white;
+  --h2-leadership:white;
+
+  --study-bg:#0A192F;
+  --h2-study:#CFE9DE;
+  --p-study:#a0aec0; 
+  --h3-study:#44665f;
+
+  --schedule-bg:#0A192F;
+  --h2-schedule:#CFE9DE;
+  --p-schedule:#a0aec0; 
+  --download-button:#44665f;
+
+  --rules-bg:#0A192F;
+  --h2-rules:#CFE9DE;
+  --p-rules:#a0aec0;
+  --first-h3-rules:#44665f;
+  --second-h3-rules:#44665f;
+  --third-h3-rules: white;
+
+  --news-bg:#0A192F;
+  --h2-carusel-news:#CFE9DE;
+  --p-carusel-news:#a0aec0; 
+
+
+  --support-bg: #0A192F;
+  --h2-resource: #CFE9DE;
+  --h4-resource:#44665f;
+  --h2-external:white;
+}

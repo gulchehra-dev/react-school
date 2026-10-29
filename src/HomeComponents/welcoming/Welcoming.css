@@ -1,0 +1,204 @@
+/* Главный зеленый блок */
+.first-welcome {
+    background: var(--welcome-bg, #DCF3E9);
+    width: calc(100% - 32px);
+    max-width: 1216px;
+    height: 503px;
+    border-radius: 24px;
+    margin: 40px auto 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 32px;
+}
+
+.second-welcome {
+    padding: 32px 0;
+}
+
+/* Компактный отступ в текстовом блоке */
+.third-welcome {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Уменьшили с 26px, чтобы не было пустоты между заголовком и текстом */
+}
+
+.welcome-title {
+    width: 520px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color: #0A192F;
+    margin: 0;
+}
+
+.welcome-p {
+    width: 489px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #0A192F;
+    margin-top: 0; /* Убрали лишний отступ сверху, так как gap уже держит расстояние */
+}
+
+.two-buttons {
+    display: flex;
+    margin-top: 28px;
+    gap: 16px;
+    align-items: center;
+}
+
+.first-button {
+    width: 211px;
+    height: 44px;
+    border-radius: 40px !important;
+    background-color: var(--first-button-bg, #0A192F) !important;
+}
+
+.second-button {
+    width: 168px;
+    height: 44px;
+    background: white !important;
+    border-radius: 40px !important;
+    border: 1px solid #d1d5db !important;
+    color: #0A192F !important;
+}
+
+/* Правый блок с картинкой для десктопа */
+.school-image {
+    position: relative;
+    width: 500px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.bg-image-box,
+.school-image div[data-mantine-background-image] {
+    width: 500px !important;
+    height: 375px !important;
+    border-radius: 24px !important;
+    overflow: hidden !important;
+}
+
+/* Карточки-плашки (видны ТОЛЬКО на больших мониторах) */
+.badge-card {
+    display: flex;
+    padding: 16px;
+    height: 72px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.08), 4px 2px 4px rgba(0, 0, 0, 0.05), 0px 8px 16px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+.badge-icon-box {
+    background: #DCF3E9;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.badge-text-box h6 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0A192F;
+}
+
+.badge-text-box p {
+    margin: 2px 0 0 0;
+    color: #6b7280;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.badge-top-pos {
+    width: 242px;
+    top: -20px;
+    right: -20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.badge-bottom-pos {
+    width: 196px;
+    bottom: -20px;
+    left: -20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 1150px) {
+    .first-welcome {
+        height: auto;
+        padding: 28px 32px;
+        gap: 16px; 
+    }
+
+    .welcome-title {
+        width: 100% !important;
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .welcome-p {
+        width: 100% !important;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .badge-card {
+        display: none !important;
+    }
+
+    .school-image {
+        width: 420px !important;
+        margin-right: 0;
+    }
+
+    .bg-image-box,
+    .school-image div[data-mantine-background-image] {
+        width: 420px !important;
+        height: 315px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .school-image {
+        display: none !important;
+    }
+
+    .first-welcome {
+        height: auto;
+        padding: 28px 20px;
+    }
+
+    .welcome-title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .welcome-p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .two-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .two-buttons a,
+    .first-button,
+    .second-button {
+        width: 100% !important;
+    }
+}

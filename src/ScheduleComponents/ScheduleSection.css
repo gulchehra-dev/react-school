@@ -1,0 +1,159 @@
+.all-schedule{
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+    margin-bottom: 126px;
+}
+.h2-schedule{
+    color: var(--h2-schedule);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+.first-p-schedule{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--p-schedule);
+    margin-top: 19px;
+}
+.controller-schedule{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.top-control{
+    margin-top: 32px;
+    background: white;
+    width: 1216px;
+    height: 253px;
+    border: 2px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 25px 25px 25px 25px;
+}
+.trio-schedule{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.h3-icon-schedule{
+    display: flex;
+    gap: 10px;
+}
+.icon-schedule{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.h3-schedule{
+    color: #0A192F;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+.second-p-schedule{
+    font-weight: 400;
+    color: #64748B;
+    font-size: 14px;
+}
+.h4-schedule{
+    color: #0A192F;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.download-button{
+    border-radius: 14px !important;
+    background: var(--download-button) !important;
+}
+.third-p-schedule{
+    color: #64748B;
+    font-weight: 400;
+    font-size: 14px;
+    width: 394px;
+    margin-top: 20px;
+}
+.bottom-control{
+    width: 1216px;
+    height: 598px;
+    border-radius: 16px;
+    border: 2px solid #E2E8F0;
+    padding: 25px 22px 25px 22px;
+    background: white;
+}
+.second-h3-schedule{
+    color: #0A192F;
+    font-weight: 600;
+    font-size: 24px;
+}
+.p-schedule{
+    color: #64748B;
+    font-weight: 400;
+    font-size: 14px;
+}
+.wrap-class-schedule{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+.first-class{
+    display: flex;
+    flex-direction: column;
+    width: 361px;
+    height: 82px;
+    border: 2px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 19px 19px 19px 19px;
+    background: #FBFFFD;
+}
+.h5-schedule{
+    color: #0A192F;
+    font-weight: 500;
+    font-size: 16px;
+}
+.forth-p-schedule{
+    color: #64748B;
+    font-weight: 400;
+    font-size: 14px;
+}
+@media(max-width:768px){
+    .first-p-schedule{
+        width: 720px;
+    }
+    .top-control{
+        width: 720px;
+        height: 253px;
+    }
+    .bottom-control{
+        width: 712px;
+        height: 794px;
+    }
+    .wrap-class-schedule{
+        gap: 12px;
+    }
+    .first-class{
+        width: 326px;
+        height: 82px;
+    }
+}
+@media(max-width:400px){
+    .first-p-schedule{
+        width: 320px;
+    }
+    .top-control{
+        width: 368px;
+        height: 433px;
+    }
+    .bottom-control{
+        width: 368px;
+        height: 1500px;
+    }
+    .trio-schedule{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}

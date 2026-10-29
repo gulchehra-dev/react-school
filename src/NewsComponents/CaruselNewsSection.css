@@ -1,0 +1,81 @@
+.all-carusel-news{
+    margin-top: 32px;
+}
+.h2-carusel-news{
+    color: var(--h2-carusel-news);
+    font-weight: 700;
+    font-size: 36px;
+}
+.p-carusel-news{
+    color: var(--p-carusel-news);
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 16px;
+}
+.both-carusel{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.input-with-icon{
+    position: relative;
+    height: 45px;
+}
+.input-carusel-news{
+    width: 896px;
+    padding: 10px 10px 10px 36px;
+    border-radius: 50px;
+    border: 1px solid #E2E8F0;
+    outline: none;    
+    height: 40px;
+    background: white;
+}
+.carousel{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%; }
+.each-carusel{
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    width: 100%; }
+.olympics{
+    width: 440px;
+    height: 454px;
+    border-radius: 16px;
+    border: 2px solid #E2E8F0;
+}
+.computer{
+    width: 440px;
+    height: 454px;
+    border-radius: 16px;
+    border: 2px solid #E2E8F0;
+}
+.parent{
+    width: 440px;
+    height: 454px;
+    border-radius: 16px;
+    border: 2px solid #E2E8F0;
+}
+.students{
+    width: 440px;
+    height: 454px;
+    border-radius: 16px;
+    border: 2px solid #E2E8F0;
+}
+.festival{
+    width: 440px;
+    height: 454px;
+    border-radius: 16px;
+    border: 2px solid #E2E8F0;
+}
+.language{
+    width: 440px;
+    height: 454px;
+    border-radius: 16px;
+    border: 2px solid #E2E8F0;
+}
+.carusel-image{
+    width: 438px;
+    height: 192px;
+}
